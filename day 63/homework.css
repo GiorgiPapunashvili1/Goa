@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.shape{
+    height: 75px;
+    width: 75px;
+    border: 5px black solid;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 400px;
+    border-bottom-color: white;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s infinite;
+}
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
