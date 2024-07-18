@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    background-color: rgb(231, 231, 231);
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    width: 600px;
+    height: 550px;
+}
+
+.PC {
+    height: 300px;
+    width: 300px;
+}
+
+p{
+    width: 150px;
+}
+
+h1{
+    color: rgb(55, 55, 75);
+}
+
+button {
+    height: 35px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: rgb(25, 0, 138);
+    color: white;
+}
+
+.OutsideMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    margin: 0 20 20 0;
+}
