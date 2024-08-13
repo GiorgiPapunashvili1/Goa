@@ -1,0 +1,46 @@
+.website{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation-name: animation;
+    animation-duration: 5s;
+}
+
+@keyframes animation {
+
+    from{
+        transform: ;
+    }
+
+    20%{
+        translate: 200px;
+        background-color: green;
+
+    }
+
+    40%{
+        translate: 200px 200px;
+        animation: ease-in;
+        background-color: yellow;
+    }
+    60%{
+        translate: 200px 400px;
+        animation: ease-in;
+        background-color: brown;
+    }
+
+    70%{
+        translate: 0px 400px;
+        animation: ease-in;
+        background-color: brown;
+    }
+
+    85%{
+        translate: 0px 200px;
+        background-color: yellow;
+        animation: ease-in;
+        ;
+    }
+}
+
+transfor
