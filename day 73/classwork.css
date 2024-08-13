@@ -1,0 +1,42 @@
+/* .background{
+    display: flex;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+.home{
+    color: white;
+    font-size: xx-large;
+}
+
+.cantact{
+    color: white;
+    font-size: xx-large;
+}
+
+.help{
+    color: white;
+    font-size: xx-large;
+}
+
+.shop{
+    color: white;
+    font-size: xx-large;
+}
+
+.name{
+    color: white;
+    font-size: xx-large;
+    margin-right: auto;
+}
+
+@media (max-width: 450px) {
+    .in{
+        font-size: large;
+    }
+} */
+
