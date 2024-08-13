@@ -1,0 +1,16 @@
+
+.box{
+    height: 200px;
+    width: 75px;
+    align-self: center;
+    border: 20px solid black;
+    transition: 1s;
+}
+
+.box:hover{
+    transform: ease-in ;
+    width: 200px;
+    height: 75px;
+}
+
+
