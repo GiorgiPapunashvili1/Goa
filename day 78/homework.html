@@ -1,0 +1,56 @@
+<!-- ჯავა სკრიპტშივაქვს ბევრი ფუნქცია ესენი გამოიყენება, საიტის ასაშენებლად, დეკორაციისთვის,მაგრამ ყველაზე მნიშვნელოვნად საიტი რომ ინტერაქტიული გავხადოთ -->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="counter">0</p>
+    <button onclick="incrementCounter()">Click</button>
+
+    <script>
+        let counter = 0;
+
+        function incrementCounter() {
+            document.getElementById("counter").textContent = counter;
+            counter++;
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Div Color</title>
+    <style>
+        #colorBox {
+            width: 400px;
+            height: 400px;
+            background-color: black;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="colorBox"></div>
+    
+    <button onclick="changeColor('red')">Red</button>
+    <button onclick="changeColor('blue')">Blue</button>
+    <button onclick="changeColor('pink')">Pink</button>
+    <button onclick="changeColor('black')">Black</button>
+    <button onclick="changeColor('green')">Green</button>
+
+    <script>
+        function changeColor(color) {
+            document.getElementById("colorBox").style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>
