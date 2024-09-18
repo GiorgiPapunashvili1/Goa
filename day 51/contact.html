@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>თავისუფალი თემა - კონტაქტი</title>
+    <link rel="stylesheet" href="homework.css">
+</head>
+<body>
+    <header>
+        <h1>კონტაქტი</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">მთავარი</a></li>
+                <li><a href="about.html">ჩვენს შესახებ</a></li>
+                <li><a href="contact.html">კონტაქტი</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>კონტაქტის ფორმა</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">სახელი:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">ელექტრონული ფოსტა:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">მესიჯი:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">გაგზავნა</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
